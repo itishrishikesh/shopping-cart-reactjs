@@ -10,8 +10,8 @@ export default class Navbar extends Component{
                 <img src={logo} alt="store" className="navbar-brand" />
             </Link> 
             <ul className="navbar-nav align-items-center">
-                <li className="nav-item ml-3">
-                    <Link to="/" className="nav-links">
+                <li className="nav-item ml-1">
+                    <Link to="/" className="nav-link text-white">
                         Products
                     </Link>
                 </li>
@@ -34,5 +34,9 @@ const NavWrapper = styled.nav`
         color: var(--mainWhite) !important;
         font-size: 1.3rem;
         text-transform: capitalize;
+    }
+    .navbar-brand{
+        width: 55px;
+        height: 60px;
     }
 `;

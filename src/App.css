@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Hind+Siliguri|&display=swap');
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainBlue: #1E6F8C;
+  --lightBlue: #BEE8F7;
+  --mainWhite: rgb(240, 240, 240);
+  --mainDark: #022B3A;
+  --mainYellow: #BEE8F7;
 }
 body{
-  font-family: 'Francois One', sans-serif !important;
+  font-family: 'Hind Siliguri', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 .text-title{
-  font-family: 'pacificio', cursive;
+  font-family: 'Pacifico', cursive;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
