@@ -35,6 +35,11 @@ const NavWrapper = styled.nav`
         font-size: 1.3rem;
         text-transform: capitalize;
     }
+    button{
+        border-color: #fff !important;
+        color: #fff;
+    }
+
     .navbar-brand{
         width: 55px;
         height: 60px;
